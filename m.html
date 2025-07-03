@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICST - International Campus of Science & Technology</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6f9;
+      color: #2c3e50;
+    }
+    nav {
+      background-color: #0d6efd;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .hero {
+      background: url('images/hero-image.jpeg') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    }
+    .section {
+      padding: 80px 0;
+    }
+    .program-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .program-card:hover {
+      transform: translateY(-5px);
+    }
+    .program-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      padding: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold" href="#">ICST</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#admissions">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero text-center">
+  <div>
+    <h1 class="display-5 fw-bold">Welcome to ICST</h1>
+    <p class="lead">Empowering futures through quality education</p>
+    <a href="#admissions" class="btn btn-success btn-lg">Apply Now</a>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="section text-center">
+  <div class="container">
+    <h2 class="mb-4">About Us</h2>
+    <p>ICST provides a modern learning experience through its departments, administration, research, and student support teams
+      he founder of ICST envisions education as a tool to break socio-economic barriers by providing job-oriented, quality higher education to all, especially the underprivileged. With strong community partnerships and world-class infrastructure, ICST fosters inclusive growth, social responsibility, and national development.
+     </p>
+
+  </div>
+</section>
+
+<!-- Programs Section -->
+<section id="programs" class="section bg-light">
+  <div class="container">
+    <h2 class="mb-5 text-center">Our Academic Programs</h2>
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <div class="program-card">
+          <img src="images/engineering.webp" alt="Engineering">
+          <div class="p-3">
+            <h5>Engineering and Technology</h5>
+            <p>Develop skills in civil, mechanical, electrical, and software engineering fields.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="program-card">
+          <img src="images/computing.JPEG" alt="Computing">
+          <div class="p-3">
+            <h5>Computing & Informatics</h5>
+            <p>Master coding, data science, AI, and IT systems for global careers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="program-card">
+          <img src="images/management.JPEG" alt="Management">
+          <div class="p-3">
+            <h5>Management & Education</h5>
+            <p>Excel in strategic thinking, leadership, and pedagogy techniques.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Admissions Section -->
+<section id="admissions" class="section text-center">
+  <div class="container">
+    <h2 class="mb-4">Admissions Open</h2>
+    <p>Start your academic journey with ICST. Our team is ready to guide you.</p>
+    <a href="mailto:admissions@icst.edu.lk" class="btn btn-primary">Email Admissions</a>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Contact Us</h2>
+    <p>📞 +94 74 3444 444</p>
+    <p>✉️ admissions@icst.edu.lk</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+  <div class="container">
+    <p>&copy; 2025 ICST. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
